@@ -47,7 +47,8 @@ extension TrackListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        AVTrackPlayer().playTrackFromUrl("https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3")
+//        TODO: Move this to separate VM
+//        AVTrackPlayer().playTrackFromUrl("https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3")
     }
     
     private func registerCells() {

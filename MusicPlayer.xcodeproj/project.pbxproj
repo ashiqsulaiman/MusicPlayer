@@ -137,7 +137,7 @@
 				C353D5082AC1CC0D00F8332C /* Model */,
 				C353D5072AC1CA2A00F8332C /* Coordinators */,
 				C353D50F2AC1D12300F8332C /* Views */,
-				C353D5102AC1D13D00F8332C /* TracksListViewModel.swift */,
+				C353D51D2AC1E35B00F8332C /* ViewModel */,
 				C353D5152AC1D87B00F8332C /* AVPlayer.swift */,
 				C353D4D22AC1C86F00F8332C /* Assets.xcassets */,
 				C353D4D42AC1C86F00F8332C /* LaunchScreen.storyboard */,
@@ -218,6 +218,14 @@
 				C353D5122AC1D82300F8332C /* Kalimba.mp3 */,
 			);
 			path = Tracks;
+			sourceTree = "<group>";
+		};
+		C353D51D2AC1E35B00F8332C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C353D5102AC1D13D00F8332C /* TracksListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
